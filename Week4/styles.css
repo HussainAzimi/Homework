@@ -1,0 +1,65 @@
+/* Box Model */
+* {
+  box-sizing: border-box;
+}
+
+/* Basic styling */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* Color scheme */
+header {
+  background-color: #4CAF50;
+  color: white;
+  padding: 1rem;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 1rem;
+}
+
+main {
+  padding: 1rem;
+}
+
+footer {
+  background-color: #f1f1f1;
+  padding: 1rem;
+  text-align: center;
+}
+/* Image Styling */
+img{
+  border-radius: 10px;
+  display: block;
+  width: 100px;
+  height: auto;
+}
+
+
+/* Class selector */
+.projects-list {
+  background-color: #e0e0e0;
+  padding: 1rem;
+}
+
+/* ID selector */
+#about {
+  border: 2px solid #4CAF50;
+  margin-bottom: 1rem;
+  padding: 1rem;
+}
+
+/* Complex selector */
+nav ul li a:hover {
+  text-decoration: underline;
+  color: #ff5722;
+}
