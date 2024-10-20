@@ -1,0 +1,96 @@
+
+html {
+    background-color: antiquewhite;
+}
+
+body {
+    text-align: center;
+    font-size: 18px;
+}
+
+h1 {
+    font-size: 50px;
+}
+
+div p {
+  margin-left: 50px;
+  margin-right: 50px;
+  text-align: justify;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    margin-top: 10px;
+    border-radius: 15px;
+}
+
+#top{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+#top > img{
+  width: 50%;
+  height: 50%;
+}
+
+#about-me {
+  text-align: center;
+  list-style-position: inside;
+
+}
+
+#about-me li {
+  text-align: justify;
+  padding: 2px;
+  display: block;
+
+}
+
+div {
+    border: 2px solid burlywood;
+    margin: 10px;
+}
+
+
+#introPic {
+    float: left;
+}
+
+#pro {
+    width: auto;
+}
+
+#achievements{
+   text-align: left;
+   padding-left: 50px;
+}
+
+/* Media query for iPhone 6/7/8 */
+@media only screen and (max-width: 375px) {
+    body {
+        font-size: 16px; /
+    }
+
+    h1 {
+        font-size: 36px;
+    }
+
+    #introPic, #about-me {
+        float: none;
+        width: 100%;
+    }
+
+    #about-me ul {
+        padding-left: 10px;
+        list-style-position: inside;
+    }
+
+    div {
+        margin: 5px;
+    }
+}
+
